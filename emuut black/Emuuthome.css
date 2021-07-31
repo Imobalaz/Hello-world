@@ -1,0 +1,210 @@
+header {
+    background: rgba(17, 17, 17, 1);
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+.getstarted {
+    color: white;
+    background: rgba(68, 123, 224, 1);
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+nav.getstarted {
+    font-size: 18px;
+}
+
+.first {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 90px;
+}
+
+.first h1{
+    font-family: 'Open Sans';
+    font-size: 72px;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.first p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.first .getstarted {
+    font-size: 20px;
+}
+
+.ffo {
+    position: absolute;
+    right: 100px;
+    top: 140px;
+}
+
+.second {
+    background: rgba(0, 0, 0, 1);
+}
+
+.laptop {
+    position: absolute;
+    right: 0;
+}
+
+.bbn {
+    margin-top: 80px;
+}
+
+ul li {
+    list-style-image: url('vector.png');
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+ul li:last-child {
+    margin-bottom: 160px;
+}
+
+.egusi {
+    height: 340px;
+    width: auto;
+    left: 0;
+    top: 600px;
+}
+
+.blue {
+    background: rgba(68, 123, 224, 1);
+}
+
+.trader h2 {
+    font-family: 'Montserrat';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 45px;
+    padding-bottom: 39px;
+}
+
+.info h3 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+
+.info {
+    color: rgba(255, 255, 255, 1);
+}
+
+.words p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 100px;
+    margin-left: 0;
+    
+}
+
+.red {
+    background: rgba(237, 27, 36, 1);
+}
+
+.join-btn {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    height: 40px;
+    width: 100px;
+    left: 450px;
+    top: 1712px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px 29px 4px;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 1);
+    padding: 98px 0 24px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+}
+
+@media screen and (max-width: 992px) {
+    .first h1 {
+        font-size: 54px;
+        line-height: 54px;
+    }
+
+    .picdiv img {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    img.egusi {
+        width: 90px;
+        height: auto;
+        margin-bottom: 200px;
+        top: 400px;
+        left: 0;
+    }
+
+    ul li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .bbn {
+        margin: auto;
+    }   
+
+    .laptop {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .trader h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .footer p {
+        padding: 45px 0 18px;
+    }
+}
